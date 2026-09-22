@@ -1,0 +1,45 @@
+{
+  "summary": "Add new Grammar Point 1288",
+  "assumptions": [
+    "The grammar-points.ts file exists and is accessible",
+    "The kana-dojo/issues/30738 file exists and is accessible"
+  ],
+  "changes": [
+    {
+      "file": "kana-dojo/grammar-points.ts",
+      "purpose": "Add new class for Grammar Point 1288",
+      "before": "",
+      "after": "class GrammarPoint1288 { /* implementation details */ }",
+      "explanation": ""
+    },
+    {
+      "file": "kana-dojo/grammar-points.ts",
+      "purpose": "Add new property to the grammar-points.ts file for point 1288",
+      "before": "",
+      "after": "GrammarPoint1288 = { /* implementation details */ }",
+      "explanation": ""
+    },
+    {
+      "file": "kana-dojo/issues/30738",
+      "purpose": "Add the new grammar point to the kana-dojo issues page",
+      "before": "",
+      "after": "/* add new grammar point */",
+      "explanation": ""
+    },
+    {
+      "file": "tests/grammar-points.test.ts",
+      "purpose": "Write a test for the new grammar point",
+      "before": "",
+      "after": "it('should test GrammarPoint1288', () => { /* test implementation details */ });",
+      "explanation": ""
+    }
+  ],
+  "verificationSteps": [
+    "Verify the new grammar point is added to the kana-dojo issues page",
+    "Verify the new grammar point is included in the grammar-points.ts file"
+  ],
+  "warnings": [
+    "Potential issue with data types for point 1288",
+    "Potential issue with point 1288 being added to the wrong file"
+  ]
+}
