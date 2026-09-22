@@ -1,0 +1,30 @@
+{
+  "summary": "Add new Grammar Point 1288 documentation file following the repository's established grammar point format and guidelines.",
+  "assumptions": [
+    "The documentation file `docs/GrammarPoints/1288.md` exists or can be created.",
+    "The repository's grammar point format and guidelines are publicly available."
+  ],
+  "changes": [
+    {
+      "file": "docs/GrammarPoints/1288.md",
+      "purpose": "Create or update the documentation file for Grammar Point 1288.",
+      "before": "",
+      "after": "A populated documentation file with standard grammar point template sections including title, structure, explanation, and example sentences.",
+      "explanation": ""
+    }
+  ],
+  "tests": [
+    {
+      "file": "example.test.js",
+      "description": "Run the test suite to ensure proper formatting and syntax of `docs/GrammarPoints/1288.md`.",
+      "code": "require('jest');\njest.test('testGrammarPoint1288', () => {\n  // Test logic\n})"
+    }
+  ],
+  "verificationSteps": [
+    "Verify that the documentation file `docs/GrammarPoints/1288.md` adheres to the repository's established grammar point format and guidelines.",
+    "Run the test suite to ensure proper formatting and syntax."
+  ],
+  "warnings": [
+    "Formatting discrepancies or missing required fields in `1288.md` relative to schema/linter requirements."
+  ]
+}
